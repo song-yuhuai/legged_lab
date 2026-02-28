@@ -13,12 +13,12 @@ class AgibotArticulationCfg(ArticulationCfg):
     """Configuration for Agibot articulations."""
 
     joint_sdk_names: list[str] = None
-    soft_joint_pos_limit_factor = 0.9
+    soft_joint_pos_limit_factor = 0.9  #软限位
 
 
 @configclass
 class AgibotUrdfFileCfg(sim_utils.UrdfFileCfg):
-    force_usd_conversion: bool = True
+    force_usd_conversion: bool = True            #开启USD转换
     activate_contact_sensors: bool = True
     rigid_props = sim_utils.RigidBodyPropertiesCfg(
         disable_gravity=False,

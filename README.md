@@ -191,7 +191,7 @@ Please refer to the comments in the script for more details about the arguments,
 To train the DeepMimic algorithm, you can run the following command:
 
 ```bash
-python scripts/rsl_rl/train.py --task LeggedLab-Isaac--Deepmimic-G1-v0 --headless --max_iterations 50000
+python scripts/rsl_rl/train.py --task LeggedLab-Isaac--Deepmimic- --headless --max_iterations 50000
 ```
 
 The `max_iterations` can be adjusted based on your needs. For more details about the arguments, run `python scripts/rsl_rl/train.py -h`.
