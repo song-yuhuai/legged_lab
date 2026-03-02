@@ -41,3 +41,6 @@ _build
 # Temp folders
 **/temp/
 **/tmp/
+
+# Ignore large mesh assets
+source/legged_lab/legged_lab/data/Robots/gp2/gp2/meshes/**/*.stl
